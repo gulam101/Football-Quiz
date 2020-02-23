@@ -32,7 +32,7 @@ namespace Football_Quiz
 
         public static bool CloseCancel()
         {
-            const string message = "Are you sure you want to exit the application? Any unsaved work will be lost!";
+            const string message = "Are you sure you want to exit the application?";
             const string caption = "Exit application";
             var result = MessageBox.Show(message, caption,
                                          MessageBoxButtons.YesNo,
