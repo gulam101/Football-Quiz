@@ -17,8 +17,11 @@ namespace Football_Quiz
             InitializeComponent();
         }
 
+        public class Points
+        {
+            int score;
+        }
 
-        #region Exit Application
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             if (CloseCancel() == false)
@@ -44,16 +47,6 @@ namespace Football_Quiz
                 return false;
             }
         }
-        #endregion
-
-
 
     }
-
-    public class Points 
-    {
-        int score;
-    }
-
-
 }
