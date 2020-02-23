@@ -17,4 +17,10 @@ namespace Football_Quiz
             InitializeComponent();
         }
     }
+
+    public class Points 
+    {
+        int score;
+    }
+
 }
