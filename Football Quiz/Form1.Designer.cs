@@ -30,6 +30,7 @@
         {
             this.btn_StartGame = new System.Windows.Forms.Button();
             this.btn_ExitApp = new System.Windows.Forms.Button();
+            this.lbl_title = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_StartGame
@@ -51,11 +52,22 @@
             this.btn_ExitApp.UseVisualStyleBackColor = true;
             this.btn_ExitApp.Click += new System.EventHandler(this.btn_ExitApp_Click);
             // 
+            // lbl_title
+            // 
+            this.lbl_title.AutoSize = true;
+            this.lbl_title.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_title.Location = new System.Drawing.Point(204, 33);
+            this.lbl_title.Name = "lbl_title";
+            this.lbl_title.Size = new System.Drawing.Size(169, 29);
+            this.lbl_title.TabIndex = 2;
+            this.lbl_title.Text = "Football Quiz";
+            // 
             // StartScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(590, 450);
+            this.ClientSize = new System.Drawing.Size(590, 401);
+            this.Controls.Add(this.lbl_title);
             this.Controls.Add(this.btn_ExitApp);
             this.Controls.Add(this.btn_StartGame);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -64,6 +76,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Start Menu";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -71,6 +84,7 @@
 
         private System.Windows.Forms.Button btn_StartGame;
         private System.Windows.Forms.Button btn_ExitApp;
+        private System.Windows.Forms.Label lbl_title;
     }
 }
 
