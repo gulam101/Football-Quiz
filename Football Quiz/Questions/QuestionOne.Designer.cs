@@ -29,40 +29,41 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Start_Game));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btn_awnserOne = new System.Windows.Forms.Button();
+            this.btn_awnserTwo = new System.Windows.Forms.Button();
+            this.btn_awnserThree = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_awnserOne
             // 
-            this.button1.Location = new System.Drawing.Point(53, 382);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Ronaldo";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_awnserOne.Location = new System.Drawing.Point(53, 382);
+            this.btn_awnserOne.Name = "btn_awnserOne";
+            this.btn_awnserOne.Size = new System.Drawing.Size(75, 23);
+            this.btn_awnserOne.TabIndex = 0;
+            this.btn_awnserOne.Text = "Ronaldo";
+            this.btn_awnserOne.UseVisualStyleBackColor = true;
+            this.btn_awnserOne.Click += new System.EventHandler(this.btn_awnserOne_Click);
             // 
-            // button2
+            // btn_awnserTwo
             // 
-            this.button2.Location = new System.Drawing.Point(357, 382);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Messi";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_awnserTwo.Location = new System.Drawing.Point(357, 382);
+            this.btn_awnserTwo.Name = "btn_awnserTwo";
+            this.btn_awnserTwo.Size = new System.Drawing.Size(75, 23);
+            this.btn_awnserTwo.TabIndex = 1;
+            this.btn_awnserTwo.Text = "Messi";
+            this.btn_awnserTwo.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btn_awnserThree
             // 
-            this.button3.Location = new System.Drawing.Point(669, 382);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Rooney";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_awnserThree.Location = new System.Drawing.Point(669, 382);
+            this.btn_awnserThree.Name = "btn_awnserThree";
+            this.btn_awnserThree.Size = new System.Drawing.Size(75, 23);
+            this.btn_awnserThree.TabIndex = 2;
+            this.btn_awnserThree.Text = "Rooney";
+            this.btn_awnserThree.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -90,9 +91,9 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_awnserThree);
+            this.Controls.Add(this.btn_awnserTwo);
+            this.Controls.Add(this.btn_awnserOne);
             this.MaximizeBox = false;
             this.Name = "Start_Game";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -105,9 +106,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_awnserOne;
+        private System.Windows.Forms.Button btn_awnserTwo;
+        private System.Windows.Forms.Button btn_awnserThree;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
     }

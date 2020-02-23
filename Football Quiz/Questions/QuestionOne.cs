@@ -1,25 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Football_Quiz.Questions;
+using System;
 using System.Windows.Forms;
 
 namespace Football_Quiz
 {
     public partial class Start_Game : Form
     {
-        public Start_Game()
+        public Start_Game(int score)
         {
             InitializeComponent();
-        }
 
-        public class Points
-        {
-            int score;
+            int correctA = 3;
+            int Total = correctA + score;
         }
 
         protected override void OnFormClosing(FormClosingEventArgs e)
@@ -46,6 +38,13 @@ namespace Football_Quiz
             {
                 return false;
             }
+        }
+
+        private void btn_awnserOne_Click(object sender, EventArgs e)
+        {
+            Hide();
+            var nextQuestion = new QuestionTwo();
+            nextQuestion.Show();
         }
 
     }

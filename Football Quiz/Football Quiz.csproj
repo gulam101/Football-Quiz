@@ -46,11 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="QuestionOne.cs">
+    <Compile Include="Questions\QuestionFive.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QuestionOne.Designer.cs">
+    <Compile Include="Questions\QuestionFive.Designer.cs">
+      <DependentUpon>QuestionFive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Questions\QuestionFour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Questions\QuestionFour.Designer.cs">
+      <DependentUpon>QuestionFour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Questions\QuestionOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Questions\QuestionOne.Designer.cs">
       <DependentUpon>QuestionOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Questions\QuestionThree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Questions\QuestionThree.Designer.cs">
+      <DependentUpon>QuestionThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Questions\QuestionTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Questions\QuestionTwo.Designer.cs">
+      <DependentUpon>QuestionTwo.cs</DependentUpon>
     </Compile>
     <Compile Include="Start Menu.cs">
       <SubType>Form</SubType>
@@ -60,7 +84,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="QuestionOne.resx">
+    <EmbeddedResource Include="Questions\QuestionOne.resx">
       <DependentUpon>QuestionOne.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Start Menu.resx">
