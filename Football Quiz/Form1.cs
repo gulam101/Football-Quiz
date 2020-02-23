@@ -19,8 +19,8 @@ namespace Football_Quiz
 
         private void btn_ExitApp_Click(object sender, EventArgs e)
         {
-            const string exitMessage = "12";
-            const string exitTitle = "13";     
+            const string exitMessage = "This will leave the application, are you sure?";
+            const string exitTitle = "Are You Sure?";     
 
             var exitMenu = MessageBox.Show(exitMessage, exitTitle,
                 MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
