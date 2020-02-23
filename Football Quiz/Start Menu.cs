@@ -34,7 +34,7 @@ namespace Football_Quiz
 
         private void btn_StartGame_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            Hide();
             var startgame = new Start_Game();
             startgame.ShowDialog();
        
