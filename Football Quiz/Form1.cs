@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Football_Quiz
 {
-    public partial class Form1 : Form
+    public partial class StartScreen : Form
     {
-        public Form1()
+        public StartScreen()
         {
             InitializeComponent();
         }
