@@ -1,0 +1,9 @@
+D:\Projects\C# Projects\Football Quiz\Football Quiz\bin\Debug\Football Quiz.exe.config
+D:\Projects\C# Projects\Football Quiz\Football Quiz\bin\Debug\Football Quiz.exe
+D:\Projects\C# Projects\Football Quiz\Football Quiz\bin\Debug\Football Quiz.pdb
+D:\Projects\C# Projects\Football Quiz\Football Quiz\obj\Debug\Football Quiz.csprojAssemblyReference.cache
+D:\Projects\C# Projects\Football Quiz\Football Quiz\obj\Debug\Football_Quiz.Properties.Resources.resources
+D:\Projects\C# Projects\Football Quiz\Football Quiz\obj\Debug\Football Quiz.csproj.GenerateResource.cache
+D:\Projects\C# Projects\Football Quiz\Football Quiz\obj\Debug\Football Quiz.exe
+D:\Projects\C# Projects\Football Quiz\Football Quiz\obj\Debug\Football Quiz.pdb
+D:\Projects\C# Projects\Football Quiz\Football Quiz\obj\Debug\Football_Quiz.Form1.resources
