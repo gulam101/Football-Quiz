@@ -41,6 +41,7 @@
             this.btn_StartGame.TabIndex = 0;
             this.btn_StartGame.Text = "Start Game";
             this.btn_StartGame.UseVisualStyleBackColor = true;
+            this.btn_StartGame.Click += new System.EventHandler(this.btn_StartGame_Click);
             // 
             // btn_ExitApp
             // 

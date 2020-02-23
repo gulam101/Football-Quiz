@@ -31,5 +31,13 @@ namespace Football_Quiz
                 Application.Exit();
             }
         }
+
+        private void btn_StartGame_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var startgame = new Start_Game();
+            startgame.ShowDialog();
+       
+        }
     }
 }

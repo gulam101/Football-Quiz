@@ -7,3 +7,4 @@ D:\Projects\C# Projects\Football Quiz\Football Quiz\obj\Debug\Football Quiz.cspr
 D:\Projects\C# Projects\Football Quiz\Football Quiz\obj\Debug\Football Quiz.exe
 D:\Projects\C# Projects\Football Quiz\Football Quiz\obj\Debug\Football Quiz.pdb
 D:\Projects\C# Projects\Football Quiz\Football Quiz\obj\Debug\Football_Quiz.StartScreen.resources
+D:\Projects\C# Projects\Football Quiz\Football Quiz\obj\Debug\Football_Quiz.Start_Game.resources
