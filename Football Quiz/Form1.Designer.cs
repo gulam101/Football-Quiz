@@ -34,7 +34,7 @@
             // 
             // btn_StartGame
             // 
-            this.btn_StartGame.Location = new System.Drawing.Point(246, 212);
+            this.btn_StartGame.Location = new System.Drawing.Point(236, 159);
             this.btn_StartGame.Name = "btn_StartGame";
             this.btn_StartGame.Size = new System.Drawing.Size(100, 47);
             this.btn_StartGame.TabIndex = 0;
@@ -43,12 +43,13 @@
             // 
             // btn_ExitApp
             // 
-            this.btn_ExitApp.Location = new System.Drawing.Point(246, 290);
+            this.btn_ExitApp.Location = new System.Drawing.Point(236, 237);
             this.btn_ExitApp.Name = "btn_ExitApp";
             this.btn_ExitApp.Size = new System.Drawing.Size(100, 47);
             this.btn_ExitApp.TabIndex = 1;
             this.btn_ExitApp.Text = "Exit Button";
             this.btn_ExitApp.UseVisualStyleBackColor = true;
+            this.btn_ExitApp.Click += new System.EventHandler(this.btn_ExitApp_Click);
             // 
             // StartScreen
             // 

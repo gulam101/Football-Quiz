@@ -16,5 +16,20 @@ namespace Football_Quiz
         {
             InitializeComponent();
         }
+
+        private void btn_ExitApp_Click(object sender, EventArgs e)
+        {
+            const string exitMessage = "12";
+            const string exitTitle = "13";     
+
+            var exitMenu = MessageBox.Show(exitMessage, exitTitle,
+                MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
+
+            if(exitMenu == DialogResult.Yes)
+            {
+                //Exits Application
+                Application.Exit();
+            }
+        }
     }
 }
